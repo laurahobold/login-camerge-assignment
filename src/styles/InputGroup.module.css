@@ -1,0 +1,58 @@
+.inputGroup {
+    display: flex;
+    align-items: center;
+    margin-bottom: 6px;
+    font-size:20px;
+
+}
+
+.inputIcon {
+    margin-right: 8px;
+}
+
+.inputLabel {
+    flex-grow: 1;
+    padding: 8px;
+    border: none;
+    font-size:20px;
+
+}
+
+
+.inputDivider {
+    height: 2px;
+    margin-bottom:58px;
+    background-color: #282c34;
+}
+
+.visuallyHidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+input {
+    color: #9C9C9C;
+    font-family: Inter, serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.visibilityToggle {
+    background: none;
+    border: none;
+    color: #007bff;
+    cursor: pointer;
+    padding: 8px;
+}
